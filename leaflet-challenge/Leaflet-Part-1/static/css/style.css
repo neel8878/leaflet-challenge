@@ -1,0 +1,59 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+
+/* Reset some default styles */
+body, h1, button {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Main content styling */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Button styling */
+button {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Map container styling */
+#mapEarthquake {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#loadContainer{
+  margin: 30px 0;
+}
